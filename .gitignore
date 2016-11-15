@@ -1,0 +1,13 @@
+# Dependency directory
+node_modules/
+
+# IDE config
+.idea
+.vscode
+
+# build files
+build/
+
+# OS files
+ehthumbs.db
+Thumbs.db
