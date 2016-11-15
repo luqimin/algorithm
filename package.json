@@ -1,29 +1,29 @@
 {
-  "name": "tinystack",
-  "version": "0.0.1",
-  "description": "javascript algorithms pratice",
-  "main": "index.js",
-  "scripts": {
-    "test": "node ./build/index"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/luqimin/tinystack.git"
-  },
-  "keywords": [
-    "algorithm",
-    "tinystack"
-  ],
-  "author": "luqimin",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/luqimin/tinystack/issues"
-  },
-  "homepage": "https://github.com/luqimin/tinystack#readme",
-  "devDependencies": {
-    "babel-core": "^6.18.2",
-    "babel-loader": "^6.2.7",
-    "babel-preset-es2015": "^6.18.0",
-    "webpack": "^1.13.3"
-  }
+    "name": "tinystack",
+    "version": "0.0.1",
+    "description": "javascript algorithms pratice",
+    "main": "dist/index.js",
+    "scripts": {
+        "test": "node ./build/index"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/luqimin/tinystack.git"
+    },
+    "keywords": [
+        "algorithm",
+        "tinystack"
+    ],
+    "author": "luqimin",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/luqimin/tinystack/issues"
+    },
+    "homepage": "https://github.com/luqimin/tinystack#readme",
+    "devDependencies": {
+        "babel-core": "^6.18.2",
+        "babel-loader": "^6.2.7",
+        "babel-preset-es2015": "^6.18.0",
+        "webpack": "^1.13.3"
+    }
 }
