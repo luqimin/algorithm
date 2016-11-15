@@ -5,8 +5,8 @@ node_modules/
 .idea
 .vscode
 
-# build files
-build/
+# dist files
+dist/
 
 # OS files
 ehthumbs.db

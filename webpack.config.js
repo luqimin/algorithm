@@ -1,14 +1,17 @@
 // webpack.config.js
 let path = require('path');
 let webpack = require('webpack');
-console.log(__dirname);
+
 module.exports = {
     entry: {
         index: path.join(__dirname, '/build/')
     },
     output: {
         filename: "[name].js",
-        path: path.join(__dirname, '/dist')
+        path: path.join(__dirname, '/dist'),
+        library: 'tinyStack',
+        libraryTarget: 'umd',
+        umdNamedDefine: false
     },
     resolve: {
         extensions: ['', '.js']

@@ -1,4 +1,14 @@
-/******/ (function(modules) { // webpackBootstrap
+(function webpackUniversalModuleDefinition(root, factory) {
+	if(typeof exports === 'object' && typeof module === 'object')
+		module.exports = factory();
+	else if(typeof define === 'function' && define.amd)
+		define([], factory);
+	else if(typeof exports === 'object')
+		exports["tinyStack"] = factory();
+	else
+		root["tinyStack"] = factory();
+})(this, function() {
+return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 
@@ -49,6 +59,7 @@
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
+	exports.Queue = exports.Stack = undefined;
 
 	var _Stack = __webpack_require__(1);
 
@@ -63,7 +74,8 @@
 	/**
 	 * Created by lqm on 15/11/2016.
 	 */
-	exports.default = { Stack: _Stack2.default, Queue: _Queue2.default };
+	exports.Stack = _Stack2.default;
+	exports.Queue = _Queue2.default;
 
 /***/ },
 /* 1 */
@@ -166,4 +178,6 @@
 	exports.default = Queue;
 
 /***/ }
-/******/ ]);
+/******/ ])
+});
+;
