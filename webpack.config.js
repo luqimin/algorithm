@@ -13,6 +13,11 @@ module.exports = {
         libraryTarget: 'umd',
         umdNamedDefine: false
     },
+    plugins: [
+        new webpack.BannerPlugin('Created by lqm\nGitHub: https://github.com/luqimin/tinystack\nContact: lqm@outlook.com', {
+            entryOnly: true
+        })
+    ],
     resolve: {
         extensions: ['', '.js']
     },
